@@ -1,0 +1,7 @@
+def box(symbol, length, breadth):
+    print(symbol * length)
+    for i in range(breadth-2):
+        print(symbol + ((' ' * (length-2)) + symbol)
+    print(symbol * length)
+
+box('=', 5, 3)
